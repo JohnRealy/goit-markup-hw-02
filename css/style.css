@@ -31,7 +31,7 @@ a{
 
 .studio-link{
 	font-weight: 500;
-	color:#2e2f42;
+	color:#434455
 }
 
 .studio-link:hover,
@@ -78,6 +78,10 @@ a{
 }
 
 .our-advantages-heading{
+	visibility: hidden;
+}
+
+.our-advantages-item-heading{
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
@@ -89,11 +93,17 @@ a{
 	background-color: #F4F4FD;
 }
 
+.our-team-block{
+	background-color: #ffffff;
+}
+
 .our-team-heading{
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
 	text-transform: capitalize;
+	letter-spacing: 0.02em;
+	color:#2e2f42;
 }
 
 .our-team-item-heading{
@@ -111,9 +121,11 @@ a{
 		line-height: 1.11;
 		text-align: center;
 		text-transform: capitalize;
+		letter-spacing: 0.02em;
+		color: #2e2f42;
 }
 
-.our-portfolio-item{
+.our-portfolio-item{	
 	
 }
 
