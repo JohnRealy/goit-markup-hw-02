@@ -13,7 +13,6 @@ ol{
 
 a{
 	text-decoration: none;
-	font-style: normal;
 }
 
 .logo{
@@ -30,11 +29,58 @@ a{
 	color:#2E2F42;
 }
 
-.studio-link{
+.studio-links{
 	font-weight: 500;
+	color:#2e2f42;
+}
+
+.studio-links:hover,
+.studio-links:focus{
+	color:#404bbf;
+}
+
+.adress-links{
+	font-style: normal;
+	color:#434455;
 }
 
 .adress-links:hover,
 .adress-links:focus{
 	color:#404bbf;
+}
+
+.hero{
+	background-color:#2e2f42;
+}
+
+.hero-title{
+	color:#ffffff;
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+}
+
+.hero-btn{
+	background-color: #4D5AE5;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color:#ffffff;
+	cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+	background-color: #404BBF;
+}
+
+.main-heading{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color:#2e2f42;
 }
